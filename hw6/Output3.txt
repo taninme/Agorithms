@@ -1,0 +1,91 @@
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # create hash table (done in command interpreter)
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # insert 9 items: 10, 22, 31, 4, 15, 28, 17, 88, 59
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 10 inserted at index 10
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 22 inserted at index 0
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 31 inserted at index 9
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 4 inserted at index 4
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 15 inserted at index 5
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 28 inserted at index 6
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 17 inserted at index 7
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 88 inserted at index 1
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 59 inserted at index 8
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # Show the hash table structure
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Structure of Table:
+
+Hash table:
+T[0]: 22
+T[1]: 88
+T[2]: -1
+T[3]: -1
+T[4]: 4
+T[5]: 15
+T[6]: 28
+T[7]: 17
+T[8]: 59
+T[9]: 31
+T[10]: 10
+
+
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # delete 6 items: 10, 28, 59, 4, 17, 15 
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to delete: No 10 key, can't delete
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to delete: No 28 key, can't delete
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to delete: No 59 key, can't delete
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to delete: No 4 key, can't delete
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to delete: No 17 key, can't delete
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to delete: No 15 key, can't delete
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # Show the hash table structure
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Structure of Table:
+
+Hash table:
+T[0]: 22
+T[1]: 88
+T[2]: -1
+T[3]: -1
+T[4]: 4
+T[5]: 15
+T[6]: 28
+T[7]: 17
+T[8]: 59
+T[9]: 31
+T[10]: 10
+
+
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # insert 3 items: 59, 28, 10
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 59 inserted at index 2
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 28 inserted at index 3
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # Show the hash table structure
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Structure of Table:
+
+Hash table:
+T[0]: 22
+T[1]: 88
+T[2]: 59
+T[3]: 28
+T[4]: 4
+T[5]: 15
+T[6]: 28
+T[7]: 17
+T[8]: 59
+T[9]: 31
+T[10]: 10
+
+
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # End of test
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: 

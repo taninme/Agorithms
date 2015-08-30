@@ -1,0 +1,75 @@
+# create empty heap (this is already done in the command interpreter)
+
+# insert 4 items, printing the heap after each insert
+
+Structure of heap (rotated 90 degrees to left):
+
+ 491
+
+
+Structure of heap (rotated 90 degrees to left):
+
+ 122
+       491
+
+
+Structure of heap (rotated 90 degrees to left):
+
+       245
+ 122
+       491
+
+
+Structure of heap (rotated 90 degrees to left):
+
+       245
+ 122
+       474
+             491
+
+
+# The following command tests minimum() 
+
+Minimum = 122
+# The following command tests decreaseKey(), decreaseing 491 to 111
+
+Structure of heap (rotated 90 degrees to left):
+
+       245
+ 111
+       122
+             474
+
+
+# extract mins (quitely after 1st) until empty, printing heap after each one
+
+Minimum extracted = 111
+Structure of heap (rotated 90 degrees to left):
+
+       245
+ 122
+       474
+
+
+Structure of heap (rotated 90 degrees to left):
+
+ 245
+       474
+
+
+Structure of heap (rotated 90 degrees to left):
+
+ 474
+
+
+Structure of heap (rotated 90 degrees to left):
+
+
+
+# attempt to extract min from empty heap
+
+Heap empty, can't extract minimum.
+
+# end of test
+
+

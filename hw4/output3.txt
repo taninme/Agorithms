@@ -1,0 +1,139 @@
+# create empty heap (this is already done in the command interpreter)
+
+# insert 50 items
+
+# print the entire heap
+
+Structure of heap (rotated 90 degrees to left):
+
+                          99
+                    96
+                         304
+              88
+                         266
+                   236
+                         372
+        49
+                         387
+                   193
+                         457
+             122
+                         302
+                               406
+                   272
+                               449
+                         390
+                               491
+  24
+                               366
+                         224
+                               405
+                   202
+                               437
+                         218
+                               368
+              90
+                               363
+                         181
+                               355
+                   177
+                               299
+                         245
+                               440
+        72
+                               149
+                         145
+                               298
+                   100
+                               291
+                         228
+                               473
+              74
+                               290
+                         201
+                               438
+                   199
+                               403
+                         399
+                               474
+
+
+# do 459 alternating extract mins and inserts quietly
+
+# do 40 extract mins with print flag on
+
+Minimum extracted = 315
+Minimum extracted = 460
+Minimum extracted = 449
+Minimum extracted = 461
+Minimum extracted = 462
+Minimum extracted = 463
+Minimum extracted = 464
+Minimum extracted = 465
+Minimum extracted = 466
+Minimum extracted = 467
+Minimum extracted = 468
+Minimum extracted = 469
+Minimum extracted = 470
+Minimum extracted = 471
+Minimum extracted = 472
+Minimum extracted = 473
+Minimum extracted = 474
+Minimum extracted = 475
+Minimum extracted = 476
+Minimum extracted = 477
+Minimum extracted = 478
+Minimum extracted = 479
+Minimum extracted = 480
+Minimum extracted = 481
+Minimum extracted = 482
+Minimum extracted = 483
+Minimum extracted = 484
+Minimum extracted = 485
+Minimum extracted = 486
+Minimum extracted = 487
+Minimum extracted = 488
+Minimum extracted = 489
+Minimum extracted = 490
+Minimum extracted = 491
+Minimum extracted = 492
+Minimum extracted = 493
+Minimum extracted = 494
+Minimum extracted = 495
+Minimum extracted = 496
+Minimum extracted = 497
+# print the remaining heap
+
+Structure of heap (rotated 90 degrees to left):
+
+             500
+       499
+             504
+ 498
+             503
+                   506
+       501
+                   507
+             502
+                   505
+
+
+# extract the rest
+
+Minimum extracted = 498
+Minimum extracted = 499
+Minimum extracted = 500
+Minimum extracted = 501
+Minimum extracted = 502
+Minimum extracted = 503
+Minimum extracted = 504
+Minimum extracted = 505
+Minimum extracted = 506
+Minimum extracted = 507
+# attempt to extract min from empty heap
+
+Heap empty, can't extract minimum.
+
+# ene of test
+
+

@@ -1,0 +1,128 @@
+# create tree
+# insert 15 items 
+# Show tree structure
+Structure of BTree (rotated 90 degrees to the left):
+
+          986
+          968
+          957
+    934
+          853
+          803
+    752
+          491
+          474
+    440
+          418
+          372
+    245
+          125
+          122
+
+# delete item 968 from a leaf and show result
+Structure of BTree (rotated 90 degrees to the left):
+
+          986
+          957
+    934
+          853
+          803
+    752
+          491
+          474
+    440
+          418
+          372
+    245
+          125
+          122
+
+# delete item 957 which causes a merge: case 3b
+Structure of BTree (rotated 90 degrees to the left):
+
+          986
+          934
+          853
+          803
+    752
+          491
+          474
+    440
+          418
+          372
+    245
+          125
+          122
+
+# delete item 474 - causes a right borrow: case 3a
+Structure of BTree (rotated 90 degrees to the left):
+
+          986
+          934
+          853
+    803
+          752
+          491
+    440
+          418
+          372
+    245
+          125
+          122
+
+# delete internal item 803 - replaced by successor: case 2b
+Structure of BTree (rotated 90 degrees to the left):
+
+          986
+          934
+    853
+          752
+          491
+    440
+          418
+          372
+    245
+          125
+          122
+
+# delete internal item 440 - causes a merge: case 2c
+Structure of BTree (rotated 90 degrees to the left):
+
+          986
+          934
+    853
+          752
+          491
+          418
+          372
+    245
+          125
+          122
+
+# delete internal item 853 - replaced by predecessor: case 2a
+Structure of BTree (rotated 90 degrees to the left):
+
+          986
+          934
+    752
+          491
+          418
+          372
+    245
+          125
+          122
+
+# delete item 934 - causes a left borrow: case 3a
+Structure of BTree (rotated 90 degrees to the left):
+
+          986
+          752
+    491
+          418
+          372
+    245
+          125
+          122
+
+# end of test
+

@@ -1,0 +1,73 @@
+# create empty heap (this is already done in the command interpreter)
+
+# insert 20 keys
+
+# show heap structure
+
+Structure of heap (rotated 90 degrees to left):
+
+                    15
+               7
+                    14
+         3
+                    13
+               6
+                    12
+   1
+                    11
+               5
+                    10
+                          20
+         2
+                          19
+                     9
+                          18
+               4
+                          17
+                     8
+                          16
+
+
+# do 10 extract mins with print key flag off
+
+# show heap structure
+
+Structure of heap (rotated 90 degrees to left):
+
+              14
+        12
+              13
+  11
+              18
+                    19
+        15
+                    17
+              16
+                    20
+
+
+# do 10 extract mins with print key flag on
+
+Minimum extracted = 11
+Minimum extracted = 12
+Minimum extracted = 13
+Minimum extracted = 14
+Minimum extracted = 15
+Minimum extracted = 16
+Minimum extracted = 17
+Minimum extracted = 18
+Minimum extracted = 19
+Minimum extracted = 20
+# show heap structure (should be empty)
+
+Structure of heap (rotated 90 degrees to left):
+
+
+
+# do an extract min from empty heap
+
+Heap empty, can't extract minimum.
+
+# quit
+
+

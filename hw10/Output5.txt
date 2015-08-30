@@ -1,0 +1,228 @@
+# create tree
+# insert 50 items
+Structure of BTree (rotated 90 degrees to the left):
+
+                491
+                474
+                473
+                457
+                449
+          440
+                438
+                437
+                406
+          405
+                403
+                399
+                390
+                387
+    372
+                368
+                366
+                363
+                355
+          304
+                302
+                299
+                298
+          291
+                290
+                272
+                266
+    245
+                236
+                228
+                224
+                218
+                202
+          201
+                199
+                193
+                181
+          177
+                149
+                145
+                122
+          100
+                 99
+                 96
+                 90
+           88
+                 74
+                 72
+                 49
+                 24
+
+# do 459 alternating deletes and inserts
+Structure of BTree (rotated 90 degrees to the left):
+
+                495
+                482
+                479
+                469
+          456
+                450
+                430
+          421
+                404
+                393
+                392
+                391
+                371
+          359
+                352
+                334
+                327
+    321
+                315
+                300
+                293
+          278
+                276
+                274
+          269
+                247
+                239
+          234
+                210
+                196
+                195
+                185
+    179
+                163
+                160
+                157
+                146
+                134
+          123
+                119
+                 97
+                 92
+           89
+                 81
+                 78
+                 61
+           48
+                 44
+                 40
+                 30
+
+# test for successful searches
+Key 81 found at index 3 in node:
+
+Leaf = True, n = 3
+Keys: 61 78 81 
+
+Key 163 found at index 5 in node:
+
+Leaf = True, n = 5
+Keys: 134 146 157 160 163 
+
+Key 327 found at index 1 in node:
+
+Leaf = True, n = 3
+Keys: 327 334 352 
+
+Key 146 found at index 2 in node:
+
+Leaf = True, n = 5
+Keys: 134 146 157 160 163 
+
+Key 293 found at index 1 in node:
+
+Leaf = True, n = 3
+Keys: 293 300 315 
+
+Key 78 found at index 2 in node:
+
+Leaf = True, n = 3
+Keys: 61 78 81 
+
+Key 157 found at index 3 in node:
+
+Leaf = True, n = 5
+Keys: 134 146 157 160 163 
+
+Key 315 found at index 3 in node:
+
+Leaf = True, n = 3
+Keys: 293 300 315 
+
+Key 119 found at index 3 in node:
+
+Leaf = True, n = 3
+Keys: 92 97 119 
+
+Key 239 found at index 1 in node:
+
+Leaf = True, n = 2
+Keys: 239 247 
+
+Key 479 found at index 2 in node:
+
+Leaf = True, n = 4
+Keys: 469 479 482 495 
+
+Key 450 found at index 2 in node:
+
+Leaf = True, n = 2
+Keys: 430 450 
+
+# test for unsuccessful searches
+Key 122 not found
+
+Key 245 not found
+
+Key 491 not found
+
+Key 474 not found
+
+Key 440 not found
+
+Key 372 not found
+
+Key 236 not found
+
+Key 473 not found
+
+Key 438 not found
+
+Key 368 not found
+
+Key 228 not found
+
+Key 272 not found
+
+# delete all but 20 entries
+# show the tree structure
+Structure of BTree (rotated 90 degrees to the left):
+
+                469
+                430
+          393
+                391
+                352
+          327
+                315
+                293
+                278
+                274
+    196
+                195
+                163
+          157
+                146
+                 97
+           81
+                 78
+                 48
+                 40
+
+# delete until empty
+# search in empty tree
+Key 254 not found
+
+# try a delete in empty tree
+Deleting from empty tree.
+# end of test
+

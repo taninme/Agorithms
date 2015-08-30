@@ -1,0 +1,27 @@
+# create tree
+# insert 10 items 
+# Show tree structure
+Structure of BTree (rotated 90 degrees to the left):
+
+          934
+          752
+          491
+          474
+    440
+          418
+          372
+          245
+          125
+          122
+
+# search for item 122 in tree
+Key 122 found at index 1 in node:
+
+Leaf = True, n = 5
+Keys: 122 125 245 372 418 
+
+# search for item 441 not in tree
+Key 441 not found
+
+# end of test
+

@@ -1,0 +1,169 @@
+# create tree
+# insert 50 items
+Structure of BTree (rotated 90 degrees to the left):
+
+                491
+                474
+                473
+                457
+                449
+          440
+                438
+                437
+                406
+          405
+                403
+                399
+                390
+                387
+    372
+                368
+                366
+                363
+                355
+          304
+                302
+                299
+                298
+          291
+                290
+                272
+                266
+    245
+                236
+                228
+                224
+                218
+                202
+          201
+                199
+                193
+                181
+          177
+                149
+                145
+                122
+          100
+                 99
+                 96
+                 90
+           88
+                 74
+                 72
+                 49
+                 24
+
+# test for successful searches
+Key 355 found at index 1 in node:
+
+Leaf = True, n = 4
+Keys: 355 363 366 368 
+
+Key 202 found at index 1 in node:
+
+Leaf = True, n = 5
+Keys: 202 218 224 228 236 
+
+Key 405 found at index 1 in node:
+
+Leaf = False, n = 2
+Keys: 405 440 
+
+Key 302 found at index 3 in node:
+
+Leaf = True, n = 3
+Keys: 298 299 302 
+
+Key 96 found at index 2 in node:
+
+Leaf = True, n = 3
+Keys: 90 96 99 
+
+Key 193 found at index 2 in node:
+
+Leaf = True, n = 3
+Keys: 181 193 199 
+
+Key 387 found at index 1 in node:
+
+Leaf = True, n = 4
+Keys: 387 390 399 403 
+
+Key 266 found at index 1 in node:
+
+Leaf = True, n = 3
+Keys: 266 272 290 
+
+Key 24 found at index 1 in node:
+
+Leaf = True, n = 4
+Keys: 24 49 72 74 
+
+Key 49 found at index 2 in node:
+
+Leaf = True, n = 4
+Keys: 24 49 72 74 
+
+# test for unsuccessful searches
+Key 903 not found
+
+Key 182 not found
+
+Key 364 not found
+
+Key 219 not found
+
+Key 439 not found
+
+Key 367 not found
+
+Key 225 not found
+
+Key 441 not found
+
+Key 391 not found
+
+Key 273 not found
+
+# Delete keys 122, 355, 96, 24, 49, 438, 304, 202, 387, 199, 74, 218, 437,
+# 224, 272, then show the tree structure
+Structure of BTree (rotated 90 degrees to the left):
+
+                491
+                474
+                473
+                457
+                449
+          440
+                406
+                405
+          403
+                399
+                390
+    372
+                368
+                366
+          363
+                302
+                299
+                298
+          291
+                290
+                266
+          245
+                236
+                228
+    201
+                193
+                181
+          177
+                149
+                145
+          100
+                 99
+                 90
+                 88
+                 72
+
+# end of test
+

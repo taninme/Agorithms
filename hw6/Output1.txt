@@ -1,0 +1,44 @@
+Hasttest 1 Output
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # create hash table (done in command interpreter)
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # insert 9 items 
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 5 inserted at index 5
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 28 inserted at index 6
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 19 inserted at index 8
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 15 inserted at index 4
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 20 inserted at index 9
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 33 inserted at index 0
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 12 inserted at index 1
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 17 inserted at index 7
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to insert: key 10 inserted at index 10
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # Show the hash table structure
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Structure of Table:
+
+Hash table:
+T[0]: 33
+T[1]: 12
+T[2]: -1
+T[3]: -1
+T[4]: 15
+T[5]: 5
+T[6]: 28
+T[7]: 17
+T[8]: 19
+T[9]: 20
+T[10]: 10
+
+
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # search for element in table
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to search for: key 19 found at index 8
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # search for element not in table
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: Enter key value to search for: key, 6, not found
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: # End of test
+
+Choose: (c)onstruct, (i)nsert, (d)elete, (s)earch, (S)how: 

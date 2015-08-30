@@ -1,0 +1,45 @@
+# create tree
+# insert 5000 items in order
+# search for the last one
+Key 99999 found at index 5 in node:
+
+Leaf = True, n = 5
+Keys: 99947 99959 99969 99997 99999 
+
+# delete all but 30
+# show structure
+Structure of BTree (rotated 90 degrees to the left):
+
+                510
+                509
+                508
+          496
+                487
+                481
+          434
+                425
+                420
+          396
+                388
+                365
+    357
+                319
+                306
+          274
+                233
+                193
+          166
+                141
+                134
+    133
+                123
+                120
+           76
+                 75
+                 61
+           21
+                 12
+                  8
+
+# end of test
+
